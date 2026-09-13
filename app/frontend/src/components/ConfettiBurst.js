@@ -6,8 +6,15 @@ export default function ConfettiBurst({ active }) {
   const ref = useRef(null);
 
   useEffect(() => {
-    if (!active) return undefined;
     const canvas = ref.current;
+    if (!active || !canvas) {
+      if (canvas) {
+        const ctx = canvas.getContext("2d");
+        if (ctx) ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+      return undefined;
+    }
+
     const ctx = canvas.getContext("2d");
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
     const w = window.innerWidth;
@@ -95,8 +102,14 @@ export default function ConfettiBurst({ active }) {
       cancelAnimationFrame(raf);
       clearTimeout(t1);
       clearTimeout(t2);
+      if (canvas) {
+        const c = canvas.getContext("2d");
+        if (c) c.clearRect(0, 0, canvas.width, canvas.height);
+      }
     };
   }, [active]);
+
+  if (!active) return null;
 
   return (
     <canvas

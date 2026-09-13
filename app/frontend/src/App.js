@@ -333,12 +333,10 @@ export default function App() {
     [isOwner, user]
   );
 
-  // Receiver opens the letter: plays music, bursts celebration, closes reveal modal
+  // Receiver opens the letter: plays music and reveals letter smoothly without unwanted glitter/confetti overlay
   const handleOpenStoryFromLetter = useCallback(() => {
     setRevealOpen(false);
     playSong().catch(() => {});
-    setCelebrating(true);
-    setTimeout(() => setCelebrating(false), 2500);
   }, []);
 
   const currentSpecialMsg =
