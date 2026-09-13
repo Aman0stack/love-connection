@@ -42,12 +42,12 @@ app.get('/api/health', (req, res) => {
 if (fs.existsSync(distPath)) {
   app.use(express.static(distPath));
 
-  // SPA fallback for non-API routes
-  app.get('*', (req, res) => {
-    if (req.path.startsWith('/api')) {
-      return res.status(404).json({ error: 'API endpoint not found' });
+  // SPA fallback for non-API GET & HEAD routes (Express 5 compatible)
+  app.use((req, res, next) => {
+    if ((req.method === 'GET' || req.method === 'HEAD') && !req.path.startsWith('/api')) {
+      return res.sendFile(path.join(distPath, 'index.html'));
     }
-    res.sendFile(path.join(distPath, 'index.html'));
+    next();
   });
 }
 
