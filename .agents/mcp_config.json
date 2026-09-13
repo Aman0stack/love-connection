@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "render": {
+      "command": "node",
+      "args": ["c:/Users/AMAN YADAV/Desktop/love by/.agents/plugins/render/server.js"],
+      "env": {
+        "RENDER_API_KEY": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "render-integration",
+  "version": "1.0.0",
+  "description": "Render.com cloud deployment tools and Model Context Protocol (MCP) server for managing and deploying services"
+}
