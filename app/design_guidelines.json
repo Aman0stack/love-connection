@@ -1,0 +1,225 @@
+{
+  "project_title": "Will you love me forever? — Editorial Romantic Proposal & Microsite",
+  "app_type": "immersive single-page romantic experience / proposal microsite (frontend-only)",
+  "emotional_archetype": "Organic & Earthy / Velvet Romance Fusion (Love letter couture meets Swiss typography & playful micro-physics)",
+  "design_principles": [
+    "Fusion over imitation: Mixing classic vintage epistolary romance with Swiss editorial precision and kinetic playful web motion",
+    "Emotion first: Every scroll state, heart flutter, dodge interaction, and sound chime maps directly to vulnerability, warmth, and lifelong commitment",
+    "Content is king: Narrative unfolds like a 4-act intimate film — The Prologue, The Manifesto Chapters, The Slow Ribbon of Vows, and The Big Question",
+    "Zoom in & intimate tactile details: Wax seal motifs, warm paper textures, vintage postal stamps, subtle WebAudio celesta chimes, and micro-particle physics",
+    "Tactile tension: The playful evasive 'No' button creating lighthearted suspense until the euphoric golden confetti celebration on 'Yes'"
+  ],
+  "typography": {
+    "heading_font": "Playfair Display, Cormorant Garamond, serif",
+    "body_font": "Quicksand, DM Sans, sans-serif",
+    "mono_or_accent_font": "JetBrains Mono, monospace (for vintage telegram coordinates, dates, and timestamped vow stamps)",
+    "font_cdn_links": [
+      "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    ],
+    "scale_hierarchy": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-serif font-bold tracking-tight leading-[1.1]",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-serif font-semibold tracking-tight",
+      "h3_chapter": "text-xl sm:text-2xl font-serif italic text-[#5c2a3b]",
+      "h4_card_title": "text-lg sm:text-xl font-medium",
+      "body": "text-base sm:text-lg leading-relaxed font-sans text-[#5c2a3b]/85",
+      "captions_labels": "text-xs uppercase tracking-[0.2em] font-mono text-[#d6336c]/80"
+    }
+  },
+  "color_palette": {
+    "cream_canvas": "#fff6f2",
+    "blush_soft": "#ffe1e8",
+    "blush_pill": "#ffc9d6",
+    "rose_accent": "#ff7a9c",
+    "deep_rose_primary": "#d6336c",
+    "plum_text_dark": "#5c2a3b",
+    "gold_warm": "#e3b23c",
+    "pure_white": "#ffffff",
+    "glass_overlay": "rgba(255, 246, 242, 0.85)",
+    "border_subtle": "rgba(214, 51, 108, 0.15)",
+    "shadow_ambient": "0 20px 40px -15px rgba(92, 42, 59, 0.08)"
+  },
+  "visual_enhancers": {
+    "grain_overlay": "Subtle SVG noise overlay with opacity 0.03 for tactile paper luxury",
+    "glassmorphism": "backdrop-blur-xl bg-white/75 border border-[#ff7a9c]/20 shadow-[0_8px_32px_rgba(92,42,59,0.06)]",
+    "ambient_canvas": "Full-bleed interactive Canvas rendering floating organic soft hearts with natural drift and mouse-repel/attract mechanics",
+    "confetti_engine": "Custom canvas multi-colored confetti burst + heart-shaped confetti sprites triggered on 'Yes' acceptance",
+    "audio_engine": "Built-in WebAudio API synthesizer playing a serene, romantic music-box / celesta pentatonic lullaby (zero external audio file dependency, toggleable mute button with visual soundwave bars)"
+  },
+  "key_sections": [
+    {
+      "id": "header",
+      "name": "Floating Crystal Navigation & Audio Control Bar",
+      "elements": [
+        "Brand seal icon / monogram",
+        "Configurable Lover Names display with quick edit drawer/modal",
+        "WebAudio Music-box toggle with animated equalizer bars",
+        "Subtle jump anchors: 'Our Story', 'Manifesto', 'The Promise', 'Forever'"
+      ]
+    },
+    {
+      "id": "hero",
+      "name": "Kinetic Hero with Line-by-Line Masked Reveal",
+      "elements": [
+        "Vintage wax seal badge 'AN ODE TO LIFELONG DEVOTION'",
+        "Kinetic staggered reveal: 'In all the world, there is no heart for me like yours.'",
+        "Personalized couple tribute: e.g. 'Julian & Eleanor' (fully editable via config constant or interactive modal)",
+        "Floating interactive 2.5D card with tilt effect and subtle parallax",
+        "Scroll down invitation pill with animated pulse chevron"
+      ]
+    },
+    {
+      "id": "marquee",
+      "name": "Editorial Ribbon of Infinite Vows",
+      "elements": [
+        "Slow horizontal drift marquee in warm beige/blush ribbon",
+        "Poetic vows: 'In every lifetime • Hand in hand through seasons • Through quiet dawns and golden sunsets • Patient • Unconditional • Always yours'"
+      ]
+    },
+    {
+      "id": "manifesto",
+      "name": "Numbered Manifesto Chapters (The Four Pillars of My Love)",
+      "layout": "Asymmetric Bento Tetris grid with col-span-8, col-span-4, col-span-12 variations",
+      "chapters": [
+        {
+          "number": "01",
+          "title": "The Sanctuary of Your Laugh",
+          "quote": "In a noisy world, your voice is my grounding silence. Every heavy day unspools the moment you smile.",
+          "visual": "Vintage postcard vignette with warm rose tones"
+        },
+        {
+          "number": "02",
+          "title": "The Everyday Magic",
+          "quote": "Not just the anniversaries, but the Tuesday morning coffees, the warm socks on chilly floors, and the quiet glances across crowded rooms.",
+          "visual": "Delicate envelope motif with pressed petals"
+        },
+        {
+          "number": "03",
+          "title": "Unshakable Loyalty",
+          "quote": "To be the anchor when storms roll in, and the warm fire when night falls. Through every unknown horizon, I stand beside you.",
+          "visual": "Golden hour silhouette & sunset pledge"
+        },
+        {
+          "number": "04",
+          "title": "The Infinite Horizon",
+          "quote": "Loving you is not a chapter that concludes; it is the entire book, written in ink that outlives the stars.",
+          "visual": "Embossed gold calligraphy badge"
+        }
+      ]
+    },
+    {
+      "id": "timeline_stats",
+      "name": "Love Metrics & Milestones",
+      "elements": [
+        "Infinity symbol counter: 'Countless laughs shared'",
+        "Golden ratio badge: '10,000+ cups of coffee & endless late-night talks'",
+        "1 Question that changes everything"
+      ]
+    },
+    {
+      "id": "the_question",
+      "name": "The Grand Proposal Stage ('Will you love me forever?')",
+      "elements": [
+        "Playfair Display kinetic title: 'Will you love me forever?'",
+        "Personalized message dedicated to the named partner",
+        "YES Button: Glowing rose/gold gradient button with pulsating heartbeat animation, triggers celebratory explosion",
+        "NO Button: Playful evasive button that calculates mouse/touch proximity and springs away smoothly with comedic counter messages ('Are you sure? 🥺', 'Try again! 🏃', 'Nice try! 💨', 'You cannot escape love! 💘', 'Button has left the chat! 🙈')",
+        "Celebration modal / overlay on YES with rich animated love letter, golden confetti rain, love song crescendo, and a downloadable/shareable keepsake card"
+      ]
+    },
+    {
+      "id": "footer",
+      "name": "Monogrammed Keepsake Footer",
+      "elements": [
+        "Handcrafted with boundless love",
+        "Editable couple names customizer",
+        "Timestamped vow lock"
+      ]
+    }
+  ],
+  "image_urls": {
+    "vintage_letters_roses": {
+      "url": "https://images.unsplash.com/photo-1614991539310-630818071643?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHwzfHxyb21hbnRpYyUyMHZpbnRhZ2UlMjBsZXR0ZXIlMjByb3Nlc3xlbnwwfHx8fDE3ODkyNTYyNzF8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Pink roses resting upon vintage handwritten love letters and postal stationery",
+      "category": "hero_vignette / story_chapter_1"
+    },
+    "pressed_flowers_envelope": {
+      "url": "https://images.unsplash.com/photo-1766226763072-9c738037df26?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMHZpbnRhZ2UlMjBsZXR0ZXIlMjByb3Nlc3xlbnwwfHx8fDE3ODkyNTYyNzF8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Blush roses blossoming out of an artisan craft paper envelope",
+      "category": "story_chapter_2 / letter_seal"
+    },
+    "sunset_hands_intimacy": {
+      "url": "https://images.unsplash.com/photo-1543829969-57899edf981b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBob2xkaW5nJTIwaGFuZHMlMjBzdW5zZXQlMjByb21hbmNlfGVufDB8fHx8MTc4OTI1NjI4Mnww&ixlib=rb-4.1.0&q=85",
+      "description": "Close-up tender portrait of couple holding hands bathed in warm sunset glow",
+      "category": "story_chapter_3 / milestone_accent"
+    },
+    "beach_sunset_silhouettes": {
+      "url": "https://images.unsplash.com/photo-1575388104683-e076ee9ccaa0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxjb3VwbGUlMjBob2xkaW5nJTIwaGFuZHMlMjBzdW5zZXQlMjByb21hbmNlfGVufDB8fHx8MTc4OTI1NjI4Mnww&ixlib=rb-4.1.0&q=85",
+      "description": "Couple strolling along the shoreline under an expansive pastel sunset sky",
+      "category": "proposal_backdrop / celebration_keepsake"
+    }
+  },
+  "interactive_mechanics": {
+    "playful_no_button": {
+      "behavior": "When cursor enters within 85px threshold or triggers onMouseEnter / onTouchStart, the button calculates opposite vector and animates with framer-motion spring to a random safe offset within boundary limits",
+      "quip_rotation": [
+        "Are you sure? 🥺",
+        "Wait, think about the snacks! 🍕",
+        "Error 404: 'No' not found! 💫",
+        "Nice try, speedy! 🏃‍♀️💨",
+        "My heart says please! 🌸",
+        "You can't escape my love! 💘",
+        "I will tickle you forever! 🧸",
+        "Look over there! 👉 (It's Yes!)"
+      ],
+      "max_escapes_before_shrinking": 12,
+      "fallback_click": "If somehow clicked, pops up playful alert playfully redirecting to Yes"
+    },
+    "yes_button_celebration": {
+      "behavior": "Click triggers instant celebratory multi-phase sequence: 1) Massive full-screen golden & rose confetti cannon burst 2) Floating heart explosion 3) WebAudio plays romantic triumphant chime melody 4) Expands celebration modal with customizable couple letter, countdown to 'Day 1 of Forever', and a download/share certificate."
+    },
+    "names_personalization": {
+      "default_sender": "Yours Truly",
+      "default_recipient": "My Favorite Person",
+      "mechanism": "Header badge & floating pencil button allows opening a sleek micro-dialog to type custom names (stored in localStorage or state), immediately dynamically updating all manifesto chapters, hero greeting, and proposal card."
+    },
+    "webaudio_music_box": {
+      "implementation": "Native WebAudio oscillator with soft bell/sine envelopes, lowpass filter, and gentle reverb effect playing a repeating 16-note romantic arpeggio (Canon in D / Gymnopedie inspired). Fully zero latency, no network asset delay, user-gesture unlocked on first interaction."
+    }
+  },
+  "testing_attributes": {
+    "required_test_ids": [
+      "header-navbar",
+      "audio-toggle-button",
+      "names-edit-trigger",
+      "names-config-modal",
+      "sender-name-input",
+      "recipient-name-input",
+      "names-save-button",
+      "hero-title-reveal",
+      "hero-cta-scroll",
+      "manifesto-section",
+      "manifesto-chapter-1",
+      "manifesto-chapter-2",
+      "manifesto-chapter-3",
+      "manifesto-chapter-4",
+      "editorial-marquee",
+      "proposal-question-section",
+      "proposal-title",
+      "proposal-yes-button",
+      "proposal-no-button",
+      "celebration-modal",
+      "celebration-close-button",
+      "confetti-canvas",
+      "floating-hearts-canvas"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Load Google Fonts in public/index.html or @import in index.css: Cormorant Garamond, Playfair Display, and Quicksand.",
+    "Implement the full single-page experience in React .js files (no .tsx). Keep components modular inside src/components/ (e.g. FloatingHeartsCanvas.js, ConfettiBurst.js, AudioMusicBox.js, ProposalCard.js, ManifestoGrid.js, NamesConfigModal.js).",
+    "Use Framer Motion for scroll-reveals, staggered line reveals in hero, and the dodging physics of the No button.",
+    "Ensure contrast requirements are strictly met: Deep plum (#5c2a3b) on cream background (#fff6f2) provides > 10:1 contrast ratio, ensuring flawless APCA and WCAG compliance.",
+    "Ensure the No button has bounded movement so it remains within viewport or proposal container bounds and doesn't get clipped offscreen.",
+    "Add all required data-testid attributes to all interactive elements as defined in testing_attributes.",
+    "Keep WebAudio synth completely client-side with an easy toggle button in the header and initial muted state until user toggles or interacts."
+  ]
+}
