@@ -45,8 +45,8 @@ If deploying without Blueprint:
 | `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud identifier | Yes | `your_cloud_name` |
 | `CLOUDINARY_API_KEY` | Cloudinary API Key | Yes | `1234567890` |
 | `CLOUDINARY_API_SECRET` | Cloudinary API Secret | Yes | `abc123xyz` |
-| `ADMIN_USERNAME` | Default admin username | Optional | `love` |
-| `ADMIN_PASSWORD` | Default admin password | Optional | `forever` |
+| `ADMIN_USERNAME` | Default admin username | Optional | `xxxx` |
+| `ADMIN_PASSWORD` | Default admin password | Optional | `xxxxx` |
 
 > ⚠️ **Important for MongoDB Atlas:** Ensure your MongoDB Network Access IP Whitelist has `0.0.0.0/0` (Allow Access from Anywhere) enabled so Render's cloud servers can connect to your database.
 
